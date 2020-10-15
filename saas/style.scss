@@ -36,6 +36,22 @@ table.dataTable thead .sorting_desc_disabled:before {
 		// text-align: center;
 	}
 
+	h4,
+	label {
+		margin: 0 !important;
+	}
+
+	h6 {
+		font-size: 10px;
+	}
+
+	// #ocid,
+	// #cost-range,
+	// #contractor,
+	// #mda {
+	// 	margin: 0 !important;
+	// }
+
 	select {
 		width: 225px;
 		height: 2.1rem;
@@ -52,6 +68,7 @@ table.dataTable thead .sorting_desc_disabled:before {
 		.count {
 			background-color: white;
 			padding: 1px 5px;
+			margin-left: 3px;
 			color: $dark-color;
 			border-radius: 5px;
 			border: 1px solid #dddddd;
@@ -88,18 +105,6 @@ table.dataTable thead .sorting_desc_disabled:before {
 	.active-class {
 		color: $dark-color;
 		background-color: white;
-	}
-
-	#dtBasicExample_length label,
-	#dtBasicExample_filter label {
-		font-size: 12px;
-		// padding: 7px 7px;
-		// margin-top: 10px;
-		// background-color: white;
-		// box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.322), -10px -10px 0px rgba(0, 0, 0, 0.322);
-		// // background-image: linear-gradient(rgba(0, 0, 0, 0.322), rgba(0, 0, 0, 0.322));
-		// background-size: 200px;
-		// // background-color: rgba(0, 0, 0, 0.322);
 	}
 }
 
